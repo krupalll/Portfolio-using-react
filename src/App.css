@@ -169,6 +169,16 @@ img {
   align-items: center;
 }
 
+#cursor {
+  height: 20px;
+  width: 20px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+  transition: all linear 0.1s;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
