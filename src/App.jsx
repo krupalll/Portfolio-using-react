@@ -13,11 +13,19 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Work from './components/Work/Work'
 
 function App() {
+  let crsr = document.querySelector("#cursor");
 
+
+  document.addEventListener("mousemove", function (dets) {
+    crsr.style.left = dets.x + "px";
+    crsr.style.top = dets.y + "px";
+    blur.style.left = dets.x - 250 + "px";
+    blur.style.top = dets.y - 250 + "px";
+  });
 
   return (
     <>
-     
+     <div id="cursor"></div>
       <Header/>
       <main className="main">
         <Home/>
