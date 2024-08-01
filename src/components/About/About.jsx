@@ -1,7 +1,7 @@
 import React from 'react'
 import { Wrapper } from './Style'
 import AboutImg from '../../assets/about.png'
-import CV from '../../assets/krupal_cv.pdf'
+import CV from '../../assets/Krupal_cv.pdf'
 import Info from './Info'
 
 const About = () => {
